@@ -1,0 +1,4 @@
+[#chapter-message-loop-pattern]
+## Message Loop
+
+See <<chapter-event-loop-pattern>>

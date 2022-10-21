@@ -1,0 +1,12 @@
+:doctype: book
+:source-highlighter: pygments
+:icons: font
+:toc: left
+:toclevels: 2
+
+= PyBook
+
+:sectnums!:
+
+include::patterns/index.adoc[]
+include::gems/index.adoc[]

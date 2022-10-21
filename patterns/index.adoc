@@ -1,0 +1,6 @@
+## Patterns
+
+include::cqrs.adoc[]
+include::event-loop.adoc[]
+include::message-loop.adoc[]
+include::event-driven-architecture.adoc[]

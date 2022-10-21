@@ -1,0 +1,5 @@
+html:
+	asciidoctor book.adoc
+
+pdf:
+	asciidoctor-pdf book.adoc

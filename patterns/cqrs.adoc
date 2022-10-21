@@ -1,0 +1,12 @@
+[#chapter-cqrs-pattern]
+## Command Query Responsibility Segregation (CQRS)
+
+### Context
+You have applied the Microservices architecture pattern and the Database per service pattern. As a result, it is no longer straightforward to implement queries that join data from multiple services. Also, if you have applied the Event sourcing pattern then the data is no longer easily queried.
+
+### Problem
+How to implement a query that retrieves data from multiple services in a microservice architecture?
+
+### Solution
+Define a view database, which is a read-only replica that is designed to support that query. The application keeps the replica up to date by subscribing to Domain events published by the service that owns the data.
+

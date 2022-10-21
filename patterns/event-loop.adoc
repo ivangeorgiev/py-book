@@ -1,0 +1,4 @@
+[#chapter-event-loop-pattern]
+## Event Loop
+
+See: link:https://en.wikipedia.org/wiki/Event_loop[Event Loop] Wikipedia article

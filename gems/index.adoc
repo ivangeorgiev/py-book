@@ -1,0 +1,3 @@
+## Python Gems
+
+include::class-decorator-example.adoc[]

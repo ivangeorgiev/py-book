@@ -1,0 +1,12 @@
+[#chapter-message-oriented-programming]
+## Message-Oriented Programming
+
+**Mes­sage Ori­ented Pro­gram­ming (MOP)**. MOP is a fla­vour of object-ori­en­ted pro­gram­ming (OOP) with the core idea that your objects shouldn’t dir­ectly call each oth­er, but com­mu­nic­ate by passing mes­sages via a mes­sage bus. Mes­sages have a spe­cif­ic type and can con­tain as many argu­ments as required. 
+
+### See Also:
+
+- https://www.jot.fm/issues/issue_2004_05/column1.pdf, https://www.researchgate.net/publication/220299100_Message_Oriented_Programming_-_The_Case_for_First_Class_Messages
+- https://joeforshaw.com/blog/message-oriented-programming#:~:text=MOP%20is%20a%20flavour%20of,as%20many%20arguments%20as%20required.
+- link:https://en.wikipedia.org/wiki/Message_passing[Message Passing]
+- link:https://fitzgeraldnick.com/2010/12/31/oop-the-good-parts.html[OOP The Good Parts: Message Passing, Duck Typing, Object Composition, and not Inheritance]
+- link:https://news.ycombinator.com/news[Hacker News]
