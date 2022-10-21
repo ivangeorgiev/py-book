@@ -29,3 +29,9 @@ Install make:
 > choco install make
 ```
 
+Build using make:
+
+```bash
+> make html
+```
+
