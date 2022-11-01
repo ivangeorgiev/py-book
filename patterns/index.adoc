@@ -4,3 +4,5 @@ include::cqrs.adoc[]
 include::event-loop.adoc[]
 include::message-loop.adoc[]
 include::event-driven-architecture.adoc[]
+
+link:ports-and-adapters/index.adoc[Ports and Adapters Architecture]

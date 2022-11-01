@@ -1,0 +1,6 @@
+[#pors-and-adapters-architecture]
+## Ports and Adapters Architecture
+
+include::ports-and-adapters-python.adoc[]
+
+link:ports-and-adapters/ports-and-adapters-python.adoc[Ports and Adapters Architecture in Python]

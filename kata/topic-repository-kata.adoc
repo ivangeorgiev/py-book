@@ -1,0 +1,27 @@
+== TDD Kata: Repository with Topic Support
+
+
+
+[source,python]
+----
+>>> # Can create instances of the repository
+>>> repo = MultiRepository()
+>>> # Can get an empty list of assigned keys for a new repository
+>>> repo.keys
+()
+>>> # Can get a list of values for unassigned key
+>>> repo.get("car")
+()
+>>> # Can assign a value to a key
+>>> repo.put("car", "Renault")
+>>> repo.get("car")
+("Renault")
+>>> # Can assign multiple values to a key
+>>> repo.put("car", "Tesla")
+>>> # Can get the values assigned to a key
+>>> repo.get("car")
+("Renault", "Tesla")
+>>> # Can get a list of assigned keys
+>>> repo.keys
+("car")
+----

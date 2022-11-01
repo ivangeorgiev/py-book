@@ -1,0 +1,54 @@
+## Ports and Adapters in Python
+
+### Package Structure
+
+Let's move from the core of the architecture model.
+
+We need to define our domain. We will place domain code into `domain` package.
+
+We need application services. We create a `service` package. Here we are going to place all our use case logic (interactors, command handlers...)
+
+There are two types of ports and adapters - primary or driving and secondary or driven. 
+
+Where are the ports for the primary/driving adapters? Our services are built around commands. Commands are plain objects which represent message which has to be passed to the service layer. Naturally we come to the conclusion that ports for the primary/driving adapters are the *command classes*. We could place the command class definition together with the use case implementation, but this couples both the command and the use case implementation. Better would be that we define the command together with use-case abstract class.
+
+----
+src
+    app
+        adapter
+            driving
+                api
+                cli
+            driven
+                repository
+        domain
+        port
+        service
+            command
+            usecase
+        dependency
+----
+
+Repository is very common adapter, so it might worth placing it under the application root. Similarly we could promote `api` to root-level package
+
+----
+app
+    adapter
+        api
+            django
+            flask
+        repository
+            django
+            eventsourcing
+            mongodb
+            tinydb
+            sqlalchemy
+    dependency
+    domain
+    port
+        repository
+    service
+        handler
+tests
+    app
+----

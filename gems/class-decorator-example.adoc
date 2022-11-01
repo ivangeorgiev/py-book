@@ -1,5 +1,5 @@
 
-### Class decorator example
+### Class Decorator Primer - An Instance Registry
 
 Let's assume we have a situation where we need to keep track about eache instance of a class.
 
